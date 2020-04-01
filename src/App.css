@@ -1,0 +1,94 @@
+.body {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*height: 85vh;*/
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fullRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.labelCell {
+    width: fit-content;
+    margin-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.inputText {
+    width: 100%;
+    padding: 5px 8px;
+    margin: 1px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputText:focus {
+    outline: 2px solid #1E90FF;
+}
+
+.inputText:disabled {
+    background: #F2F2F2;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: #4169e1;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    width: 4.5em;
+    text-align: center;
+    height: 2em;
+}
+
+.button:active {
+  transform: translateY(0.1em);
+}
+
+.tooltipContainer {
+    display: flex;
+}
+
+.resultContainer {
+    margin-top: 2em;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.paragraph {
+    font-size: 1.1em;
+}
